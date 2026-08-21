@@ -13,8 +13,9 @@ function TilfTal() {
 TilfTal();
 */
 
+import { TilfTal } from "..utils_lib/utils_lib.js";
 var Gæt = document.querySelector(".gæt");
-var Tallet = TilfTal();
+var Tallet = TilfTal(100);
 const knap = document.querySelector(".button");
 var Feedback = document.querySelector(".feedback");
 const Kitty = document.querySelector(".cat");
@@ -33,10 +34,6 @@ function TjekTal() {
     Feedback.textContent = "Du har gættet Rigtigt!";
     Kitty.style.display = "initial";
   }
-}
-
-function TilfTal() {
-  return Math.floor(Math.random() * 100);
 }
 
 console.log(Gæt);
