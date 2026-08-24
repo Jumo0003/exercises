@@ -45,11 +45,11 @@ console.log(people);
 const str = "abcdefghijklmn";
 const arr1 = str.split("");
 
-console.log(arr1);
+//console.log(arr1);
 const arr2 = Array.from(str);
 
-console.log(arr2);
+//console.log(arr2);
 
 const arr3 = [...str];
 
-console.log(arr3);
+//console.log(arr3);
