@@ -53,3 +53,25 @@ const arr2 = Array.from(str);
 const arr3 = [...str];
 
 //console.log(arr3);
+
+const people = ["Harry", "Ron", "Hermione", "Neville"];
+
+function testParms(a, b, c, d) {
+  //console.log(`a: ${a}, b: ${b}, c: ${c}, d: ${d}`);
+}
+
+people.forEach(testParms);
+
+const onlyCats = animals.filter(isCat);
+
+function all(animal) {
+  return true;
+}
+
+function none(animal) {
+  return false;
+}
+
+animals.filter(all);
+
+animals.filter(none);
