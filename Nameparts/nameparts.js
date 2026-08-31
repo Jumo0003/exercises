@@ -23,3 +23,12 @@ console.log("3capatalix theName", theName.substring(2, 3).toUpperCase());
 console.log("3capatalix theName", theName.substring(3).toLowerCase());
 ("");
 console.log("3capatalix theName", `${theName.substring(0, 2).toLowerCase()}${theName.substring(2, 3).toUpperCase()}${theName.substring(3).toLowerCase()}`);
+
+/* Real Capitalization */
+
+const theName = "KLAUS";
+
+console.log("3capatalix theName", theName.substring(0, 1).toUpperCase());
+console.log("3capatalix theName", theName.substring(1).toLowerCase());
+
+console.log("3capatalix theName", `${theName.substring(0, 2).toLowerCase()}${theName.substring(2, 3).toUpperCase()}${theName.substring(3).toLowerCase()}`);
